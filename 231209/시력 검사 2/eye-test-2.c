@@ -1,8 +1,8 @@
 #include <stdio.h>
 
 int main() {
-    int a;
-    scanf("%d", &a);
+    float a;
+    scanf("%f", &a);
     if(a>=1.0)
         printf("High");
     else if(a>=0.5)
