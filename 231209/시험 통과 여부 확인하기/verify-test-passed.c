@@ -7,6 +7,6 @@ int main() {
     if(n>=80)
         printf("pass");
     else
-        ("%d more score", 100-n);
+        printf("%d more score", 100-n);
     return 0;
 }
