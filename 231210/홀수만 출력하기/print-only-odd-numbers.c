@@ -3,10 +3,12 @@
 int main() {
     int n, i;
     scanf("%d", &n);
-    for(i=1; i<=10; i++)
+    for(i=1; i<=n; i++)
     {
-        if(i%2==1 && i%3==0)
-        printf("%d\n", i);
+        int a;
+        scanf("%d", &a);
+        if(a%2==1 && a%3==0)
+        printf("%d\n", a);
     }
     return 0;
 }
