@@ -2,13 +2,26 @@
 
 int main() {
     int a, b, i;
-    int sum=0;
     scanf("%d %d", &a, &b);
-    for(i=a; i<=b; i++)
+    int sum=0;
+    if(a<=b)
     {
-        if(i%5==0)
+        for(i=a; i<=b; i++)
         {
-            sum+=i;
+            if(i%5==0)
+            {
+                sum+=i;
+            }
+        }
+    }
+    else
+    {
+        for(i=b; i<=a; i++)
+        {
+            if(i%5==0)
+            {
+                sum+=1;
+            }
         }
     }
     printf("%d", sum);
