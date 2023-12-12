@@ -6,16 +6,16 @@ int main() {
         int num;
         scanf("%d", &num);
         if(num==1)
-            printf("John");
+            printf("John\n");
         else if(num==2)
-            printf("Tom");
+            printf("Tom\n");
         else if(num==3)
-            printf("Paul");
+            printf("Paul\n");
         else if(num==4)
-            printf("Sam");
+            printf("Sam\n");
         else
         {
-            printf("Vacancy");
+            printf("Vacancy\n");
             break;
         }
     }
