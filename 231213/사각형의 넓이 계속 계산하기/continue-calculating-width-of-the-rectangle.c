@@ -7,8 +7,8 @@ int main() {
         char a;
         scanf("%d %d %c", &w, &h, &a);
         printf("%d\n", w*h);
-        if(a=='C'
-            break;)
+        if(a=='C')
+            break;
     }
     return 0;
 }
