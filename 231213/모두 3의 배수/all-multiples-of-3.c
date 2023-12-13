@@ -1,12 +1,13 @@
 #include <stdio.h>
 #include<stdbool.h>
 int main() {
-    int n, i;
-    scanf("%d", &n);
+    int i;
     bool satisfied=true;
-    for(i=1; i<n; i++)
+    for(i=1; i<=5; i++)
     {
-        if(i%3==0)
+        int a;
+        scanf("%d", &a);
+        if(a%3!=0)
             satisfied=false;
     }
     if(satisfied==true)
