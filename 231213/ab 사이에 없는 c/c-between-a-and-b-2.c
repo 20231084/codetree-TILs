@@ -8,7 +8,7 @@ int main() {
     for(i=a; i<=b; i++)
     {
         if(i%c==0)
-            satidfied=false;
+            satisfied=false;
     }
     if(satisfied==true)
         printf("YES");
