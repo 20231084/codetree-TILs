@@ -1,8 +1,8 @@
 #include <stdio.h>
 #include<stdbool.h>
 int main() {
-    int i;
     bool satisfied=true;
+    int i;
     for(i=1; i<=5; i++)
     {
         int a;
