@@ -2,7 +2,7 @@
 #include<stdbool.h>
 
 int main() {
-    int n;
+    int n, i;
     scanf("%d", &n);
     bool satisfied=false;
     for(i=2; i<n; i++)
